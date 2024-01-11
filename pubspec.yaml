@@ -1,0 +1,57 @@
+name: amalskuy
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+ sdk: '>=3.2.3 <4.0.0'
+
+dependencies:
+ flutter:
+    sdk: flutter
+
+ cupertino_icons: ^1.0.2
+ flutter_native_splash: ^2.3.9
+ line_icons: ^2.0.3
+ firebase_core: ^2.24.2
+ firebase_auth: ^4.16.0
+ flutter_svg: ^2.0.5
+ google_sign_in: ^6.1.5
+ smooth_page_indicator: ^1.1.0
+ google_fonts: ^6.1.0
+ faker: ^2.1.0
+ cloud_firestore: ^4.14.0
+
+dev_dependencies:
+ flutter_test:
+    sdk: flutter
+
+ flutter_lints: ^2.0.0
+
+flutter_native_splash:
+ color: "#FFFFFF"
+ image: assets/images/amalskuy-logo-light.png
+ android: true
+ ios: true
+ web: true
+
+flutter:
+ uses-material-design: true
+ assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+    - assets/images/amalskuy-logo-light.png
+
+ fonts:
+    - family: DMSans
+      fonts:
+        - asset: assets\fonts\DMSans-Black.ttf
+          weight: 800
+        - asset: assets\fonts\DMSans-Bold.ttf
+          weight: 600
+        - asset: assets\fonts\DMSans-Medium.ttf
+          weight: 400
+        - asset: assets\fonts\DMSans-Regular.ttf
+          weight: 200
