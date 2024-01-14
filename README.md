@@ -1,16 +1,18 @@
-# amalskuy
+# AmalSkuy
 
-A new Flutter project.
+A Donation / Charity App that Made with Flutter and Firebase Authentication
 
-## Getting Started
+## Installation
+After cloning this repository, make sure you have installed [Firebase CLI](https://firebase.google.com/docs/cli#setup_update_cli) and Logged in to your Firebase Account. Then, follow the following steps:
+- Create Firebase Project
+- Setup Firebase to your Flutter App
+- Enable Authentication
+- In Authentication Sign-In Method, Add Email/Password providers
+Then run the following commands to run your app:
+```bash
+  flutter pub get
+  flutter run
+```
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshot
+Soon
